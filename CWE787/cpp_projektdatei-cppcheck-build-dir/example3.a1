@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="183720110">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;eingabe[10]&apos; accessed at index 11, which is out of bounds." verbose="Array &apos;eingabe[10]&apos; accessed at index 11, which is out of bounds." cwe="788" hash="15728287166149138227">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example3.cpp" line="16" column="20" info="Array index out of bounds"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SynthethicTestCases/CWE787/example3.cpp:7:7" call-funcname="EingabeOutofBounds" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SynthethicTestCases/CWE787/example3.cpp" line="15" col="23" call-argexpr="eingabe" call-argvaluetype="7" call-argvalue="10"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="EingabeOutofBounds" lineNumber="7"/>
+    <functiondecl functionName="main" lineNumber="13"/>
+    <functioncall functionName="EingabeOutofBounds"/>
+    <functioncall functionName="eingabe"/>
+  </FileInfo>
+</analyzerinfo>

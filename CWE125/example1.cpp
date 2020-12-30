@@ -1,17 +1,10 @@
-/*
- * Example.cpp
- *
- *  Created on: 01.12.2020
- *      Author: Marcel
- */
-
 #include <iostream>
 
 using namespace std;
 
 int getValueArray(int *array, int index, int len)
 {
-	/* Es wird ein Array, dessen Laenge und die erwünschte Stelle uebergeben */
+	/* Es wird ein Array, dessen Laenge und die erwuenschte Stelle uebergeben */
 	if (index > len){
 		return 0;
 	}
@@ -21,17 +14,11 @@ int getValueArray(int *array, int index, int len)
 	return value;
 }
 
-
 int main(){
-	int len = 5;
-	int index = -4;
-	int array[4];
-	array[0] = 1;
-	array[1] = 2;
-	array[2] = 3;
-	array[3] = 4;
-
-	int result = getValueArray(array, len, index);
+	int len = 4;
+	int index = 3;
+	int array[4] = {0,1,2,3};
+	int result = getValueArray(array, index, len);
 	cout << result;
 	return 0;
 }

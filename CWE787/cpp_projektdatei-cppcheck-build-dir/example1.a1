@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3245533648">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;id_sequenz[3]&apos; accessed at index 4, which is out of bounds." verbose="Array &apos;id_sequenz[3]&apos; accessed at index 4, which is out of bounds." cwe="788" hash="5409227779447361957">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example1.cpp" line="13" column="32" info="Array index out of bounds"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SynthethicTestCases/CWE787/example1.cpp:5:6" call-funcname="CWE787" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SynthethicTestCases/CWE787/example1.cpp" line="20" col="11" call-argexpr="dataArray" call-argvaluetype="7" call-argvalue="24"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="CWE787" lineNumber="5"/>
+    <functiondecl functionName="main" lineNumber="17"/>
+    <functioncall functionName="CWE787"/>
+    <functioncall functionName="dataArray"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+  </FileInfo>
+</analyzerinfo>
