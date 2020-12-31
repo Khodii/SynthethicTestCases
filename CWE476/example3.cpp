@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int check = 0;
     cin >> check;
-    int *data;
+    int *data = NULL;
     *data = 10;
     int dataArray[5];
     /* Moeglicher Fehler: Setze data auf NULL */

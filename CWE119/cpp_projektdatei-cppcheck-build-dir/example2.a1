@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2369896968">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;buf[10]&apos; accessed at index 10, which is out of bounds." verbose="Array &apos;buf[10]&apos; accessed at index 10, which is out of bounds." cwe="788" hash="1098917636494207949">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE119\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE119\example2.cpp" line="15" column="12" info="Array index out of bounds"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3396559712">
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;x1+x2&apos;." verbose="Signed integer overflow for expression &apos;x1+x2&apos;." cwe="190" hash="630063902250711257">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example3.cpp" line="11" column="20" info="Integer overflow"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example3.cpp" line="9" column="14" info="Assignment &apos;x1=2147483000&apos;, assigned value is 2147483000"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="5"/>
+    <functioncall functionName="x2"/>
+  </FileInfo>
+</analyzerinfo>

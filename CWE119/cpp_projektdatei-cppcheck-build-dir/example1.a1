@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3515490992">
+        <error id="getsCalled" severity="warning" msg="Obsolete function &apos;gets&apos; called. It is recommended to use &apos;fgets&apos; or &apos;gets_s&apos; instead." verbose="The obsolete function &apos;gets&apos; is called. With &apos;gets&apos; you&apos;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &apos;fgets&apos; or &apos;gets_s&apos; instead." cwe="477" hash="10774356764714258465">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE119\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE119\example1.cpp" line="14" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="authentifiziert"/>
+    <functioncall functionName="buff"/>
+    <functioncall functionName="gets"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="strcmp"/>
+  </FileInfo>
+</analyzerinfo>

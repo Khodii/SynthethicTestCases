@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2744903303">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="berechneFlaecheninhalt" lineNumber="6"/>
+    <functiondecl functionName="main" lineNumber="11"/>
+    <functioncall functionName="berechneFlaecheninhalt"/>
+    <functioncall functionName="breite"/>
+    <functioncall functionName="laenge"/>
+  </FileInfo>
+</analyzerinfo>

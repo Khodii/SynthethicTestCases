@@ -2,12 +2,10 @@
 
 using namespace std;
 
-
 int berechneKontostand(int kontostand, int geldabnahme){
 	kontostand = kontostand - geldabnahme;
 	return kontostand;
 }
-
 int main() {
 	int kontostand = 1000;
 	int abgehoben;

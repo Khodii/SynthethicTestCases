@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2423475154">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="5"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="sizeof"/>
+  </FileInfo>
+</analyzerinfo>

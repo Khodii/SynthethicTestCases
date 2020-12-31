@@ -5,6 +5,7 @@ using namespace std;
 
 int berechneFlaecheninhalt(int laenge, int breite){
     int result = laenge*breite;
+    return result;
 }
 
 int main(){

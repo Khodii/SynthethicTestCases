@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2067987190">
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;film&apos; should be passed by const reference." verbose="Parameter &apos;film&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" hash="15010153753346203344">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE20\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE20\example2.cpp" line="6" column="44"/>
+            <symbol>film</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE20/example2.cpp:6:6" call-funcname="addfilm" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE20/example2.cpp" line="17" col="16" call-argexpr="filmsammlung" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="addfilm" lineNumber="6"/>
+    <functiondecl functionName="main" lineNumber="10"/>
+    <functioncall functionName="addfilm"/>
+    <functioncall functionName="film"/>
+    <functioncall functionName="filmsammlung"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="index"/>
+  </FileInfo>
+</analyzerinfo>

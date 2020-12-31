@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2252447515">
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="10589065770997534318">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" line="9" column="6" info="Null pointer dereference"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" line="8" column="17" info="Assignment &apos;data=NULL&apos;, assigned value is 0"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="2697123571421806993">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" line="13" column="10" info="Null pointer dereference"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" line="8" column="17" info="Assignment &apos;data=NULL&apos;, assigned value is 0"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="7226391651271455706">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" line="16" column="21" info="Null pointer dereference"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example3.cpp" line="8" column="17" info="Assignment &apos;data=NULL&apos;, assigned value is 0"/>
+            <symbol>data</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="5"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="if"/>
+  </FileInfo>
+</analyzerinfo>

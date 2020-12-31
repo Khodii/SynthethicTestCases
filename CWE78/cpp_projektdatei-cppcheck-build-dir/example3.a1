@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3798641260">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="execute"/>
+    <functioncall functionName="system"/>
+  </FileInfo>
+</analyzerinfo>

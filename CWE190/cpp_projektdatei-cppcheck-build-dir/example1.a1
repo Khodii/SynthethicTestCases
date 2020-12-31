@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2790324808">
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;overflown+1&apos;." verbose="Signed integer overflow for expression &apos;overflown+1&apos;." cwe="190" hash="18004382039786088691">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example1.cpp" line="11" column="27" info="Integer overflow"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example1.cpp" line="9" column="27" info="Assignment &apos;overflown=overflown+2147483647&apos;, assigned value is 2147483647"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE190\example1.cpp" line="7" column="21" info="Assignment &apos;overflown=0&apos;, assigned value is 0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="5"/>
+  </FileInfo>
+</analyzerinfo>

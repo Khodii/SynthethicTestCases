@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="186997084">
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="5059202431888288147">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example1.cpp" line="18" column="21" info="Null pointer dereference"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example1.cpp" line="16" column="12" info="Assignment &apos;data=NULL&apos;, assigned value is 0"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;result&apos; is assigned a value that is never used." verbose="Variable &apos;result&apos; is assigned a value that is never used." cwe="563" hash="6910009161341174265">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example1.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example1.cpp" line="9" column="16"/>
+            <symbol>result</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE476/example1.cpp:5:6" call-funcname="dataConsumer" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE476/example1.cpp" line="20" col="17" call-argexpr="dataArray" call-argvaluetype="7" call-argvalue="20"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="dataConsumer" lineNumber="5"/>
+    <functiondecl functionName="main" lineNumber="12"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="dataArray"/>
+    <functioncall functionName="dataConsumer"/>
+  </FileInfo>
+</analyzerinfo>

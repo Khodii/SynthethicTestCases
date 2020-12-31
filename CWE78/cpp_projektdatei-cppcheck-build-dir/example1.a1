@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2816518914">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE78/example1.cpp:7:6" call-funcname="executeDataEntry" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE78/example1.cpp" line="19" col="21" call-argexpr="data" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="executeDataEntry" lineNumber="7"/>
+    <functiondecl functionName="main" lineNumber="13"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="execute"/>
+    <functioncall functionName="executeDataEntry"/>
+    <functioncall functionName="system"/>
+  </FileInfo>
+</analyzerinfo>

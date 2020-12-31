@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="5059202431888288147" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="18" info="Null pointer dereference"/>
+            <location file="example1.cpp" line="16" info="Assignment &amp;#039;data=NULL&amp;#039;, assigned value is 0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." cwe="563" hash="6910009161341174265" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="9"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: ptr" verbose="Null pointer dereference: ptr" cwe="476" hash="13293974419326448113" sinceDate="31.12.2020">
+            <location file="example2.cpp" line="14" info="Null pointer dereference"/>
+            <location file="example2.cpp" line="9" info="Assignment &amp;#039;ptr=NULL&amp;#039;, assigned value is 0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;result&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;result&amp;#039; shadows outer variable" cwe="398" hash="16233305542411719529" sinceDate="31.12.2020">
+            <location file="example2.cpp" line="14" info="Shadow variable"/>
+            <location file="example2.cpp" line="10" info="Shadowed declaration"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." cwe="563" hash="5767847407937394305" sinceDate="31.12.2020">
+            <location file="example2.cpp" line="14"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;berechnung&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;berechnung&amp;#039; is assigned a value that is never used." cwe="563" hash="16721068768289066709" sinceDate="31.12.2020">
+            <location file="example2.cpp" line="16"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="10589065770997534318" sinceDate="31.12.2020">
+            <location file="example3.cpp" line="9" info="Null pointer dereference"/>
+            <location file="example3.cpp" line="8" info="Assignment &amp;#039;data=NULL&amp;#039;, assigned value is 0"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="2697123571421806993" sinceDate="31.12.2020">
+            <location file="example3.cpp" line="13" info="Null pointer dereference"/>
+            <location file="example3.cpp" line="8" info="Assignment &amp;#039;data=NULL&amp;#039;, assigned value is 0"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: data" verbose="Null pointer dereference: data" cwe="476" hash="7226391651271455706" sinceDate="31.12.2020">
+            <location file="example3.cpp" line="16" info="Null pointer dereference"/>
+            <location file="example3.cpp" line="8" info="Assignment &amp;#039;data=NULL&amp;#039;, assigned value is 0"/>
+        </error>
+    </errors>
+</results>

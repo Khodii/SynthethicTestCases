@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <analyzerinfo checksum="816577834">
         <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;array[3]&apos; accessed at index 3, which is out of bounds." verbose="Array &apos;array[3]&apos; accessed at index 3, which is out of bounds." cwe="788" hash="1046190485762280727">
-            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example2.cpp" line="10" column="10" info="Array index out of bounds"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE787\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE787\example2.cpp" line="10" column="10" info="Array index out of bounds"/>
         </error>
         <error id="unreadVariable" severity="style" msg="Variable &apos;array[3]&apos; is assigned a value that is never used." verbose="Variable &apos;array[3]&apos; is assigned a value that is never used." cwe="563" hash="12244669678303553067">
-            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SynthethicTestCases\CWE787\example2.cpp" line="10" column="14"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE787\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE787\example2.cpp" line="10" column="14"/>
             <symbol>array[3]</symbol>
         </error>
   <FileInfo check="CheckUnusedFunctions">

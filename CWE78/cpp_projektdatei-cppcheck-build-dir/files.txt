@@ -1,0 +1,3 @@
+example1.a1::C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE78/example1.cpp
+example2.a1::C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE78/example2.cpp
+example3.a1::C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE78/example3.cpp

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4092041721">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE125/example1.cpp:5:5" call-funcname="getValueArray" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE125/example1.cpp" line="21" col="28" call-argexpr="array" call-argvaluetype="7" call-argvalue="16"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getValueArray" lineNumber="5"/>
+    <functiondecl functionName="main" lineNumber="17"/>
+    <functioncall functionName="array"/>
+    <functioncall functionName="getValueArray"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="len"/>
+  </FileInfo>
+</analyzerinfo>

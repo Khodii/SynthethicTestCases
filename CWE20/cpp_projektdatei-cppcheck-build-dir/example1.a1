@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4168365662">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="berechneKontostand" lineNumber="5"/>
+    <functiondecl functionName="main" lineNumber="9"/>
+    <functioncall functionName="abgehoben"/>
+    <functioncall functionName="berechneKontostand"/>
+    <functioncall functionName="geldabnahme"/>
+    <functioncall functionName="kontostand"/>
+  </FileInfo>
+</analyzerinfo>

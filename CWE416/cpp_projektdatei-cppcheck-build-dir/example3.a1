@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="722777404">
+        <error id="deallocuse" severity="error" msg="Dereferencing &apos;ptr&apos; after it is deallocated / released" verbose="Dereferencing &apos;ptr&apos; after it is deallocated / released" cwe="416" hash="17763767419801022346">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE416\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE416\example3.cpp" line="20" column="25"/>
+            <symbol>ptr</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="6"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="sizeof"/>
+  </FileInfo>
+</analyzerinfo>

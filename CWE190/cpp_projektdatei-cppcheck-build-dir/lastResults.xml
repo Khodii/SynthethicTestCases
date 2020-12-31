@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &amp;#039;overflown+1&amp;#039;." verbose="Signed integer overflow for expression &amp;#039;overflown+1&amp;#039;." cwe="190" hash="18004382039786088691" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="11" info="Integer overflow"/>
+            <location file="example1.cpp" line="9" info="Assignment &amp;#039;overflown=overflown+2147483647&amp;#039;, assigned value is 2147483647"/>
+            <location file="example1.cpp" line="7" info="Assignment &amp;#039;overflown=0&amp;#039;, assigned value is 0"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &amp;#039;x1+x2&amp;#039;." verbose="Signed integer overflow for expression &amp;#039;x1+x2&amp;#039;." cwe="190" hash="630063902250711257" sinceDate="31.12.2020">
+            <location file="example3.cpp" line="11" info="Integer overflow"/>
+            <location file="example3.cpp" line="9" info="Assignment &amp;#039;x1=2147483000&amp;#039;, assigned value is 2147483000"/>
+        </error>
+    </errors>
+</results>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="9843982">
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: ptr" verbose="Null pointer dereference: ptr" cwe="476" hash="13293974419326448113">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" line="14" column="23" info="Null pointer dereference"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" line="9" column="16" info="Assignment &apos;ptr=NULL&apos;, assigned value is 0"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;result&apos; shadows outer variable" verbose="Local variable &apos;result&apos; shadows outer variable" cwe="398" hash="16233305542411719529">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" line="14" column="13" info="Shadow variable"/>
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" line="10" column="9" info="Shadowed declaration"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;result&apos; is assigned a value that is never used." verbose="Variable &apos;result&apos; is assigned a value that is never used." cwe="563" hash="5767847407937394305">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" line="14" column="20"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;berechnung&apos; is assigned a value that is never used." verbose="Variable &apos;berechnung&apos; is assigned a value that is never used." cwe="563" hash="16721068768289066709">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE476\example2.cpp" line="16" column="20"/>
+            <symbol>berechnung</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="6"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

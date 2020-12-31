@@ -10,7 +10,7 @@ void arraycopy(int * dataArray, int size) {
         for (int i = 0; i < size; i++) {
             id_sequenz[i] = dataArray[i];
         }
-        std::cout << id_sequenz[4];
+        cout << id_sequenz[4];
         /* Es fehlt eine Ueberpruefung auf die Laenge des uebergebenen dataArrays. */
     }
 

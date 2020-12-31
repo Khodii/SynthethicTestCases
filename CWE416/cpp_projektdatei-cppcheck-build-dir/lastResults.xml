@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="deallocuse" severity="error" msg="Dereferencing &amp;#039;buchstabe&amp;#039; after it is deallocated / released" verbose="Dereferencing &amp;#039;buchstabe&amp;#039; after it is deallocated / released" cwe="416" hash="11578098777881623908" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="13"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: buchstabe" verbose="Uninitialized variable: buchstabe" cwe="457" hash="11357922858635296448" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="7"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: buchstabe" verbose="Uninitialized variable: buchstabe" cwe="457" hash="5333551283929502793" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="9"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: buchstabe" verbose="Uninitialized variable: buchstabe" cwe="457" hash="12046119480748394514" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="11"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: buchstabe" verbose="Uninitialized variable: buchstabe" cwe="457" hash="10479221846162947979" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="13"/>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &amp;#039;buchstabe&amp;#039; is not assigned a value." verbose="Variable &amp;#039;buchstabe&amp;#039; is not assigned a value." cwe="665" hash="12182290401092130570" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="6"/>
+        </error>
+        <error id="deallocuse" severity="error" msg="Dereferencing &amp;#039;ptr&amp;#039; after it is deallocated / released" verbose="Dereferencing &amp;#039;ptr&amp;#039; after it is deallocated / released" cwe="416" hash="17763767419801022346" sinceDate="31.12.2020">
+            <location file="example3.cpp" line="20"/>
+        </error>
+    </errors>
+</results>

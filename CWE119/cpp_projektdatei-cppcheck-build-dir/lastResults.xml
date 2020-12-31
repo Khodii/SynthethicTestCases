@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" hash="10774356764714258465" sinceDate="31.12.2020">
+            <location file="example1.cpp" line="14"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;buf[10]&amp;#039; accessed at index 10, which is out of bounds." verbose="Array &amp;#039;buf[10]&amp;#039; accessed at index 10, which is out of bounds." cwe="788" hash="1098917636494207949" sinceDate="31.12.2020">
+            <location file="example2.cpp" line="15"/>
+        </error>
+    </errors>
+</results>

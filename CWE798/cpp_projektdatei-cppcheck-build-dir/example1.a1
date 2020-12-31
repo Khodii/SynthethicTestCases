@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3452872129">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE798/example1.cpp:6:5" call-funcname="checkeCredentials" call-argnr="1" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE798/example1.cpp" line="23" col="42" call-argexpr="username" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE798/example1.cpp:6:5" call-funcname="checkeCredentials" call-argnr="2" file="C:/Users/Marcel/Desktop/Bachelorarbeit/SyntheticTestCases/CWE798/example1.cpp" line="23" col="42" call-argexpr="password" call-argvaluetype="7" call-argvalue="10"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="checkeCredentials" lineNumber="6"/>
+    <functiondecl functionName="main" lineNumber="14"/>
+    <functioncall functionName="authentifizierung"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="checkeCredentials"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="password"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="username"/>
+  </FileInfo>
+</analyzerinfo>
