@@ -5,33 +5,28 @@ using namespace std;
 
 int checkeCredentials(char username [], char password[]){
     int retValue = 0;
+    /*Vergleichen der Nutzereingaben mit fest hinterlegten Benutzernamens "admin" und Passworts "adminpass" mit Hilfe von strcmp */
     if(strcmp(username, "admin" ) == 0 && strcmp(password, "adminpass") == 0 ){
         retValue = 1;
     }
     return retValue;
 }
-
-
-int main( void )
-{
+int main() {
     int authentifizierung = 0;
     char username[10];
     char password[10];
-
-    std::cout << "Username?: ";
-    std::cin >> username;
-
-    std::cout << "Passwort?: ";
-    std::cin >> password;
-
+    cout << "Username?: ";
+    cin >> username;
+    cout << "Passwort?: ";
+    cin >> password;
+    /*Nutzeingabe des Benutzernamens und Passworts */
     authentifizierung = checkeCredentials(username, password);
-
     if(authentifizierung ) {
-        std::cout << "Zugriff gewaehrt\n";
-        std::cout << (char) authentifizierung;
+        cout << "Zugriff gewaehrt\n";
+        cout << (char) authentifizierung;
     }
     else {
-        std::cout << "Falsche Login Daten\n";
+        cout << "Falsche Login Daten\n";
     }
     return 0;
 }
