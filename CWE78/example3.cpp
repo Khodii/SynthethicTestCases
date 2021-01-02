@@ -10,4 +10,5 @@ int main(void){
     data[2] = "cmd";
     const char *execute = data[2].c_str();
     system(execute);
+    return 0;
 }

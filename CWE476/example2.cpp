@@ -14,4 +14,5 @@ int main(){
         int result = *ptr;
     }
     int berechnung = result + 1;
+    return 0;
 }

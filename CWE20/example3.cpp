@@ -15,4 +15,5 @@ int main(){
     cin >> breite;
     int result = berechneFlaecheninhalt(laenge, breite);
     cout << result << endl;
+    return 0;
 }

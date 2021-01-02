@@ -2,29 +2,19 @@
 
 using namespace std;
 
-int getValueArray(int *array, int index, int len)
-{
-	/* Es wird ein Array, dessen Laenge und die erwuenschte Stelle uebergeben */
-	if (index > len){
-		return 0;
-	}
-	/* Hier wird beispielsweise ueberprueft, ob index > len ist, jedoch fehlt die Abfrage index == len) */
-	/* Also wuerde ein Index == len nicht ausgeschlossen werden, was zur CWE125 fuehrt. */
-	int value = array[index];
-	return value;
+void arrayread(int* dataArray, int size) {
+    /* Es fehlt eine Ueberpruefung auf die Laenge des uebergebenen dataArrays im Zusammmenahng mit der size. */
+    for (int i = 0; i < size; i++) {
+        cout << dataArray[i] << endl;
+    }
+    /* Da sizeof(dataArray) < size sein kann, kann es zur CWE-125 kommen*/
 }
-
-int main(){
-	int len = 4;
-	int index = 4;
-	int array[4] = {0,1,2,3};
-	int result = getValueArray(array, index, len);
-	cout << result;
-	return 0;
+int main() {
+    int dataArray[6] = { 1,2,3,4,5,6 };
+    int size = 8;
+    arrayread(dataArray, size);
+    return 0;
 }
-
-
-
 
 
 

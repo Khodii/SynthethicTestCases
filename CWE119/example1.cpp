@@ -17,15 +17,12 @@ int main(void)
     if(strcmp(buff, "lehrstuhlbauer") == 0) {
         cout << "Richtiges Passwort" << endl;
         authentifiziert = 1;
-    }
-    else {
+    } else {
         cout << "Falsches Passwort" << endl;
     }
-
     if(authentifiziert){
         /* Beispielsweise vergeben von Admin Rechten*/
         cout << "Admin Rechte vergeben" << endl;
     }
-
     return 0;
 }

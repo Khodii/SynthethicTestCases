@@ -11,4 +11,5 @@ int main(void)
     cout << "Welchen Teil des String Felds wollen Sie?" << endl;
     cin >> index;
     cout << strings[index] <<endl;
+    return 0;
 }

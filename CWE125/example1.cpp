@@ -16,7 +16,7 @@ int getValueArray(int *array, int index, int len)
 
 int main(){
 	int len = 4;
-	int index = 3;
+	int index = -1;
 	int array[4] = {0,1,2,3};
 	int result = getValueArray(array, index, len);
 	cout << result;

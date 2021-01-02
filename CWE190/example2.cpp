@@ -19,4 +19,5 @@ int main()
     /* Nun wird der neue Wert fuer eine Berechnung verwendet */
     int y = x + 1000;
     cout << y << endl;
+    return 0;
 }

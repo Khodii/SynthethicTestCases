@@ -17,4 +17,5 @@ int main(){
     /* Dann wird dataArray mit einem NULL Wert uebergeben */ #
     int result = dataArray[2] + 1;
     cout << result << endl;
+    return 0;
 }

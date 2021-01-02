@@ -2,11 +2,8 @@
 <results version="2">
     <cppcheck version="2.3"/>
     <errors>
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;array[3]&amp;#039; accessed at index 3, which is out of bounds." verbose="Array &amp;#039;array[3]&amp;#039; accessed at index 3, which is out of bounds." cwe="788" hash="6182424795396329747" sinceDate="31.12.2020">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;array[3]&amp;#039; accessed at index 4, which is out of bounds." verbose="Array &amp;#039;array[3]&amp;#039; accessed at index 4, which is out of bounds." cwe="788" hash="5887603954722774672" sinceDate="02.01.2021">
             <location file="example3.cpp" line="10"/>
-        </error>
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;array[3]&amp;#039; accessed at index 4, which is out of bounds." verbose="Array &amp;#039;array[3]&amp;#039; accessed at index 4, which is out of bounds." cwe="788" hash="18266928319131479058" sinceDate="31.12.2020">
-            <location file="example3.cpp" line="11"/>
         </error>
     </errors>
 </results>

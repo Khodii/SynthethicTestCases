@@ -18,4 +18,5 @@ int main(){
     dataArray[2] = *data;
     /* Dann wird dataArray mit einem NULL Wert an dataConsumer uebergeben, was zur CWE-476 fuehrt */
     dataConsumer(dataArray);
+    return 0;
 }

@@ -19,4 +19,5 @@ int main(){
     for(int i = 0; i < 5; i++){
         cout << filmsammlung[i] << endl;
     }
+    return 0;
 }

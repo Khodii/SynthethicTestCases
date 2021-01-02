@@ -8,14 +8,12 @@ int main()
 	ptr = (int*) malloc(5*sizeof(int));
 	cout << "5 Integer eingeben" << endl;
 
-	for (int i=0; i<5; i++)
-	{
+	for (int i=0; i<5; i++){
 		cin >> *(ptr+i);
 	}
 	cout << endl << "Eingegebene Werte"<< endl;
 
-	for (int i = 0; i < 5; i++)
-	{
+	for (int i = 0; i < 5; i++){
 		cout << *(ptr+i) << " ";
 	}
     cout << "" << endl;
@@ -24,8 +22,7 @@ int main()
 	/* Zeigt die Werte nach free */
 	cout << "Garbage Value" << endl;
 
-	for (int i = 0; i < 5; i++)
-	{
+	for (int i = 0; i < 5; i++){
 		cout << *(ptr+i) << " " << endl;
 	}
 

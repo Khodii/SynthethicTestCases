@@ -17,4 +17,5 @@ int main(void){
     /* Hier koennten Beispielsweise die Befehle dir / cd oder ganz kritisch cmd eingeschleust werden, welche
     spaeter durch die Funktion executeDataEntry ausgefuert werden*/
     executeDataEntry(data);
+    return 0;
 }

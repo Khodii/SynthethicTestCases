@@ -1,10 +1,7 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="3662596247">
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;array[3]&apos; accessed at index 3, which is out of bounds." verbose="Array &apos;array[3]&apos; accessed at index 3, which is out of bounds." cwe="788" hash="6182424795396329747">
-            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE125\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE125\example3.cpp" line="10" column="10" info="Array index out of bounds"/>
-        </error>
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;array[3]&apos; accessed at index 4, which is out of bounds." verbose="Array &apos;array[3]&apos; accessed at index 4, which is out of bounds." cwe="788" hash="18266928319131479058">
-            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE125\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE125\example3.cpp" line="11" column="18" info="Array index out of bounds"/>
+<analyzerinfo checksum="1035185978">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;array[3]&apos; accessed at index 4, which is out of bounds." verbose="Array &apos;array[3]&apos; accessed at index 4, which is out of bounds." cwe="788" hash="5887603954722774672">
+            <location file0="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE125\example3.cpp" file="C:\Users\Marcel\Desktop\Bachelorarbeit\SyntheticTestCases\CWE125\example3.cpp" line="10" column="18" info="Array index out of bounds"/>
         </error>
   <FileInfo check="CheckUnusedFunctions">
     <functiondecl functionName="main" lineNumber="5"/>

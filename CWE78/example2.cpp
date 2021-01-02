@@ -14,4 +14,5 @@ int main(void){
     data[1] = "ISSE";
     data[2] = "dir";
     executeDataEntry(data);
+    return 0;
 }

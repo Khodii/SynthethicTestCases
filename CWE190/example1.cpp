@@ -13,4 +13,5 @@ int main()
     /* Nun wird der neue Wert fuer eine Berechnung verwendet */
     int y = overflown + 1000000;
     cout << y << endl;
+    return 0;
 }

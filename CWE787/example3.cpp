@@ -14,6 +14,7 @@ int main(){
     char eingabe[10];
     EingabeOutofBounds(eingabe);
     cout << eingabe[11];
+    return 0;
     }
 
 

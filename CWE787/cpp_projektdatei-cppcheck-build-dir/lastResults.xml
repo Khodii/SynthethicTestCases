@@ -2,16 +2,16 @@
 <results version="2">
     <cppcheck version="2.3"/>
     <errors>
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;id_sequenz[3]&amp;#039; accessed at index 4, which is out of bounds." verbose="Array &amp;#039;id_sequenz[3]&amp;#039; accessed at index 4, which is out of bounds." cwe="788" hash="6332437718526642545" sinceDate="31.12.2020">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;id_sequenz[3]&amp;#039; accessed at index 4, which is out of bounds." verbose="Array &amp;#039;id_sequenz[3]&amp;#039; accessed at index 4, which is out of bounds." cwe="788" hash="6332437718526642545" sinceDate="01.01.2021">
             <location file="example1.cpp" line="13"/>
         </error>
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;array[3]&amp;#039; accessed at index 3, which is out of bounds." verbose="Array &amp;#039;array[3]&amp;#039; accessed at index 3, which is out of bounds." cwe="788" hash="1046190485762280727" sinceDate="31.12.2020">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;array[3]&amp;#039; accessed at index 3, which is out of bounds." verbose="Array &amp;#039;array[3]&amp;#039; accessed at index 3, which is out of bounds." cwe="788" hash="1046190485762280727" sinceDate="01.01.2021">
             <location file="example2.cpp" line="10"/>
         </error>
-        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;array[3]&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;array[3]&amp;#039; is assigned a value that is never used." cwe="563" hash="12244669678303553067" sinceDate="31.12.2020">
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;array[3]&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;array[3]&amp;#039; is assigned a value that is never used." cwe="563" hash="12244669678303553067" sinceDate="01.01.2021">
             <location file="example2.cpp" line="10"/>
         </error>
-        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;eingabe[10]&amp;#039; accessed at index 11, which is out of bounds." verbose="Array &amp;#039;eingabe[10]&amp;#039; accessed at index 11, which is out of bounds." cwe="788" hash="15728287166149138227" sinceDate="31.12.2020">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &amp;#039;eingabe[10]&amp;#039; accessed at index 11, which is out of bounds." verbose="Array &amp;#039;eingabe[10]&amp;#039; accessed at index 11, which is out of bounds." cwe="788" hash="15728287166149138227" sinceDate="01.01.2021">
             <location file="example3.cpp" line="16"/>
         </error>
     </errors>
